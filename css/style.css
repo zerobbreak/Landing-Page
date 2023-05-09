@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*  */
+}
+
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: -110px;
+    color: #f9faf8;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: aqua;
+}
+
+.cta button{
+    margin: 20px;
+    padding: 9px 30px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta button:hover{
+    background-color: #3882f6;
+}
+
+.btn button{
+    margin: 20px;
+    padding: 9px 30px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: -10px;
+}
+
+.btn button:hover{
+    background-color: #3882f6;
+}
+
+.background{
+    background-color: #1f2937;
+    padding-bottom: 20px;
+}
+
+.header-content img{
+    height: auto;
+    width: 500px;
+    margin-left: 40px;
+    border-radius: 14px;
+}
+
+.header-content{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+
+
+.header-content h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:700;
+}
+
+.header-content .content p{
+    color: #edf0f1;
+    font-size: 15;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 20px;
+    margin-left: -2px;
+}
+
+
+.main-section h2{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 0 20px 50px 20px;
+    padding: 20px;
+}
+
+.container .box{
+    margin-top: 20px;
+    margin: 0 30px;
+    /* display: inline-block; */
+    /* border: 1px solid #3882f6; */
+    border-radius: 20px;
+}
+
+
+.container .box p{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.container .box img{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.second-section{
+    margin-top: 100px;
+    background-color: #e5e7eb;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+.second-section p{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.second-section .author{
+    font-size: 27px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.call-to-action .action-content{
+    padding: 20px;
+}
+
+.call-to-action .action-content h4{
+    color: #e5e7eb;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.call-to-action .action-content p{
+    color: #edf0f1;
+}
+
+.call-to-action .btn-2 button{
+    border: 1px solid #ffffff;
+    margin-left: 800px;   
+}
+
+.btn-2 button{
+    margin: 20px;
+    padding: 9px 30px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: -10px;
+}
+
+.btn-2 button:hover{
+    background-color: #3882f6;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    padding-top: 30px;
+    color: #e5e7eb;
+}
+
+
